@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Cairo";
+}
+body {
+  background-color: #121212;
+}
+h1 {
+  color: white;
+  padding: 8vh 0;
+  font-size: 6vw;
+}
+.transtion {
+  float: right;
+}
+p {
+  font-size: 4.5vw;
+  color: var(--primary-color);
+  padding-bottom: 20px;
+  animation: expand 0.5s ease-in-out;
+  -webkit-animation: expand 0.5s ease-in-out;
+}
+@keyframes expand {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
